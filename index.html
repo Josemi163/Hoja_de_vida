@@ -20,7 +20,7 @@
 
     <main>
 
-      <section>
+      <section class="seccion" id="perfil">
     <h2>Mi Perfil Profesional</h2>
     <p>
       Ingeniero de Sistemas y Experto en Ciberseguridad Avanzada.
@@ -34,7 +34,7 @@
     <hr>
    
     <!-- Información de contacto -->
-      <section>
+      <section class="seccion" id="contacto">
     <h2>Información de contacto</h2>
 
     <p>Correo: jomix1603@gmail.com</p>
@@ -46,7 +46,7 @@
 
     <hr>
        
-    <section>
+    <section class="seccion" id="redes sociales">
     <!-- Redes sociales -->
     <h2>Mis redes sociales</h2>
 
@@ -70,15 +70,15 @@
       </section>   
     <hr>
        
-    <section>
+    <section class="seccion" id="educacion">
     <div>
      <h2>Educación</h2>
-    <article>
+    <article class="educacion">
      <h3>Ingeniería de Sistemas</h3>
      <p>Universidad CESMAG | En curso</p>
     </article>
 
-    <article>
+    <article class="educacion">
      <h3>SENA | Finalizado</h3>
      <p>Técnico en Asistencia Administrativa</p>
     </article>
@@ -87,10 +87,43 @@
         
     <hr>
 
-      <section>
+      <section class="seccion" id="experiencia">
     <div>
      <h2>Experiencia profesional</h2>
-     <article>
+
+     <table>
+      <thead>
+        <!-- <tr> Filas -->
+        <tr>
+          <!-- <th> indica que es un encabezado de columna -->
+          <th>Cargo</th>
+          <th>Organizacion</th>
+          <th>Periodo</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+         <td>Estudiante Ingenieria de Sistemas</td>
+         <td>Universidad CESMAG</td>
+         <td>2026 - Actualidad</td>
+        </tr>
+
+        <tr>
+         <td>Desarrollador de Software</td>
+         <td>Apple</td>
+         <td>2023 - 2024</td>
+        </tr>
+        <tr>
+         <td>Mesero</td>
+         <td>Starbucks</td>
+         <td>2022 - 2023</td>
+        </tr>
+
+      </tbody>
+     </table>
+     
+     <article class="experiencia">
      <h3>Estudiante en Ingeniería de Sistemas
     
     </h3>
@@ -101,7 +134,7 @@
 
     <hr>
 
-     <section>
+     <section class="seccion" id="habilidades">
     <div>
     <h2>Habilidades</h2>
     <ul>
@@ -115,11 +148,14 @@
 
     <hr>
 
-     <section>
+     <section class="seccion" id="proyectos">
     <div>
      <h2>Proyectos</h2>
+
+     <article class="proyecto">
      <h3>Urgex - Sistema de Rutas para Emergencias</h3>
     <p>Propuesta y desarrollo de sistema inteligente para optimización de tiempos de respuesta en vehículos de emergencia mediante APIs de tráfico.</p>
+     </article>
     </div>
      </section>
 
