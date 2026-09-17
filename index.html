@@ -16,11 +16,12 @@
    </header>
 
     <hr>
-    <!-- Perfil profesional -->
 
     <main>
+          <!-- Perfil profesional -->
 
-      <section class="seccion" id="perfil">
+
+      <section class="section" id="Perfil">
     <h2>Mi Perfil Profesional</h2>
     <p>
       Ingeniero de Sistemas y Experto en Ciberseguridad Avanzada.
@@ -34,19 +35,45 @@
     <hr>
    
     <!-- Información de contacto -->
-      <section class="seccion" id="contacto">
+      <section class="section" id="contacto">
     <h2>Información de contacto</h2>
 
-    <p>Correo: jomix1603@gmail.com</p>
-    <p>Teléfono: 3222637016</p>
+    <p>Correo: 
+      <a href="mailto:jomix1603gmail.com">jomix1603@gmail.com</a>
+    </p>
+    <p>Teléfono:
+      <a href="tel:3222637016">3222637016</a>
+    </p>
     <p>Ciudad: Pasto, Colombia</p>
+
+    <h3>Enviame un mensaje</h3>
+    <form action="">
+      <label for="nombre">Nombre: </label>
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required> 
+
+      <label for="correo">Correo: </label>
+      <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com" required>
+
+      <label for="telefono">Telefono: </label>
+      <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu numero telefonico"> 
+      
+      <br>
+
+      <label for="mensaje"> Escribe tu mensaje: </label>
+      <textarea name="mensaje" id="mensaje" placeholder="Esribe tu msj" required></textarea>
+
+      <button type="submit">Enviar</button>
+      
+    </form>
+     
       </section>
-    <!-- <hr> Salto de linea que me dibuja la division> -->
+    
+      <!-- <hr> Salto de linea que me dibuja la division> -->
     <!-- <br> Salto de linea> -->
 
     <hr>
        
-    <section class="seccion" id="redes sociales">
+    <section class="section" id="Redes">
     <!-- Redes sociales -->
     <h2>Mis redes sociales</h2>
 
@@ -58,72 +85,43 @@
       <!-- Yo tengo un <li> por cada elemento que va a tener mi lista -->
       
       <li> 
-        <a href="https://www.instagram.com/migue_163_?igsi=MWlvbWxyYXczZHZsbQ%3D%3D&utm_source=qr"> Instagram </a>
+        <a href="https://www.instagram.com/migue_163_?igsi=MWlvbWxyYXczZHZsbQ%3D%3D&utm_source=qr" target="_blank" Instagram> Instagram
+       </a>
       </li>
       <li>
-       <a href="https://www.facebook.com/"> Facebook </a>
+       <a href="https://www.facebook.com/" target="_blank" Facebook> Facebook
+       </a>
       </li>
       <li>
-        <a href="https://www.youtube.com/"> YouTube </a>
+        <a href="https://www.youtube.com/" target="_blank" YouTube> YouTube
+        </a>
       </li>          
     </ol>
       </section>   
     <hr>
        
-    <section class="seccion" id="educacion">
+    <section class="section" id="Educación">
     <div>
      <h2>Educación</h2>
-    <article class="educacion">
+    <article class="Educación">
      <h3>Ingeniería de Sistemas</h3>
      <p>Universidad CESMAG | En curso</p>
     </article>
 
-    <article class="educacion">
+    <article class="Educación">
      <h3>SENA | Finalizado</h3>
      <p>Técnico en Asistencia Administrativa</p>
     </article>
+
     </div>
       </section>
         
     <hr>
 
-      <section class="seccion" id="experiencia">
+      <section class="section" id="Experiencia">
     <div>
      <h2>Experiencia profesional</h2>
-
-     <table>
-      <thead>
-        <!-- <tr> Filas -->
-        <tr>
-          <!-- <th> indica que es un encabezado de columna -->
-          <th>Cargo</th>
-          <th>Organizacion</th>
-          <th>Periodo</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-         <td>Estudiante Ingenieria de Sistemas</td>
-         <td>Universidad CESMAG</td>
-         <td>2026 - Actualidad</td>
-        </tr>
-
-        <tr>
-         <td>Desarrollador de Software</td>
-         <td>Apple</td>
-         <td>2023 - 2024</td>
-        </tr>
-        <tr>
-         <td>Mesero</td>
-         <td>Starbucks</td>
-         <td>2022 - 2023</td>
-        </tr>
-
-      </tbody>
-     </table>
-     
-     <article class="experiencia">
+     <article class="Experiencia">
      <h3>Estudiante en Ingeniería de Sistemas
     
     </h3>
@@ -134,7 +132,7 @@
 
     <hr>
 
-     <section class="seccion" id="habilidades">
+     <section class="section" id="Habilidades">
     <div>
     <h2>Habilidades</h2>
     <ul>
@@ -148,15 +146,14 @@
 
     <hr>
 
-     <section class="seccion" id="proyectos">
+     <section class="section" id="Proyectos">
     <div>
      <h2>Proyectos</h2>
-
-     <article class="proyecto">
+     <article class="Proyectos">
      <h3>Urgex - Sistema de Rutas para Emergencias</h3>
     <p>Propuesta y desarrollo de sistema inteligente para optimización de tiempos de respuesta en vehículos de emergencia mediante APIs de tráfico.</p>
-     </article>
-    </div>
+    </article>
+  </div>
      </section>
 
 
@@ -175,3 +172,4 @@
      </footer>
 </body>
 </html>
+
