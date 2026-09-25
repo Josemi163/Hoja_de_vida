@@ -1,15 +1,20 @@
 body {
-    background-color: #097bfdad;
-    color: #ad1717;
+    background-color: #f0f7ff;
+    color: #1e293b;          
     font-family: Georgia, serif;
+    line-height: 1.6; /* INTERLINEADO */
 }
+
 h1 {
-    color: #2563eb;
+    color: #1d4ed8;         
     font-size: 28px;
 }
+
 h3 {
     font-size: 20px;
+    color: #1e40af;         
 }
+
 p {
     line-height: 1.6; /* INTERLINEADO */
 }
@@ -17,37 +22,165 @@ p {
 
 /* SECCIONES */
 
- section{ /* ETIQUETA */
-    background-color: #ffffffc0;
+section { /* ETIQUETA */
+    background-color: #ffffffd9; 
+    padding: 25px;
+    margin: 20px;
+    border: 2px solid #006ef585;
+    border-radius: 20px;
+}
+
+.seccion h2 { /* CLASE (.)*/
+    margin-top: 0;
 }
 
 .seccion { /* CLASE (.) */
-    background-color: white;
+    background-color: #ffffff;  
 }
 
 #Perfil { /* ID (#) */
-    background-color: #7ad5ffe0;
+    background-color: #c7dfffe3;  
 }
 
-#contacto{
-    background-color:thistle
+#contacto {
+    background-color: #e2e8f0;  
 }
+
 
 /* ENCABEZADO */
 
-header{
-    background-color: 1f2937;
-    color: white;
+header {
+    background-color: #1e3a8a;  
+    color: #ffffff;
     text-align: center;
+    padding: 20px 0;
 }
 
-header h1{
-    color: white;
+header h1 {
+    color: #ffffff;
 }
 
-header h2{
-    color: #d1d5db; 
+header h2 {
+    color: #93c5fd; 
+}
+
+header img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+/* ENLACES */
+a {
+    color: #2563eb;  
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* LISTAS */
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+/* FORMULARIO */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    front-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    front-family: inherit;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #cccccca9;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #1e3a8a;  
+    color: #ffffff;
 }
 
 
+/* PROYECTOS */
 
+.Proyectos {
+    background-color: #e0f2fe;  
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.Educación {
+    background-color: #e0f2fe;  
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+}
+.Experiencia {
+    background-color: #e0f2fe;  
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.Habilidades {
+    background-color: #e0f2fe;  
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #1e3a8a;  
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #93c5fd; 
+    text-decoration: none;
+}
