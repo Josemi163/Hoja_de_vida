@@ -20,12 +20,23 @@
    <h1> <?php echo $nombre; ?> </h1>
    <h2> <?php echo $profesion; ?> </h2>
   <!-- Concatenacion -->
-   <p><?php echo "Soy ". $nombre ." y soy". $profesion ?></p>
+   <p><?php echo "Soy ". $nombre ." y soy ". $profesion ?></p>
    <?php if($edad >= 18): ?>
        <p>Disponible para trabajar</p>
     <?php else: ?>
         <p>Menor de edad - No puede trabajar</p>
     <?php endif; ?>
+    
+    <main>
+        <section>
+    <h2>Habilidades</h2>
+    <ul>
+        <?php foreach($habilidades as $habilidad): ?>
+            <li><?= $habilidad ?></li>
+        <?php endforeach; ?>
+    </ul>
+    </section>
 
+    </main>
 </body>
 </html>
